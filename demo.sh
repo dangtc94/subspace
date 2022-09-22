@@ -8,7 +8,7 @@ else
   sudo apt update && sudo apt install wget -y < "/dev/null"
 fi
 
-for i in 1 2 3 4 5
+for i in 1 2
 do
   cd $HOME
 	mkdir node$i
