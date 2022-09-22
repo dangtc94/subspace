@@ -1,6 +1,6 @@
 #!/bin/bash
 
-codeUrl=37e06d20dcdb47e02704c485be762713231e69bb
+codeUrl=master
 
 sudo apt update && sudo apt upgrade -y
 sudo apt install curl build-essential git wget jq make gcc ack tmux ncdu -y
