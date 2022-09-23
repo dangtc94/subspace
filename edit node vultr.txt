@@ -10,6 +10,10 @@ nano /etc/systemd/system/subspaced-farmer.service
 systemctl daemon-reload
 	
 rm -rf ~/.local/share/subspace*
+
+sudo systemctl restart subspaced
+sudo systemctl restart subspaced-farmer
+
  
  
 wget -O subspace.sh https://bitbucket.org/dieuts/subspace/raw/master/demo.sh && chmod +x subspace.sh && ./subspace.sh
