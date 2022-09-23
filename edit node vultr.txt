@@ -1,15 +1,15 @@
 
 
- sudo systemctl stop subspaced
+sudo systemctl stop subspaced
 
- sudo systemctl stop subspaced-farmer
+sudo systemctl stop subspaced-farmer
 
 
- nano /etc/systemd/system/subspaced-farmer.service
+nano /etc/systemd/system/subspaced-farmer.service
  
-  systemctl daemon-reload
+systemctl daemon-reload
 	
-	rm -rf ~/.local/share/subspace*
+rm -rf ~/.local/share/subspace*
  
  
- wget -O subspace.sh https://bitbucket.org/dieuts/subspace/raw/master/demo.sh && chmod +x subspace.sh && ./subspace.sh
+wget -O subspace.sh https://bitbucket.org/dieuts/subspace/raw/master/demo.sh && chmod +x subspace.sh && ./subspace.sh
