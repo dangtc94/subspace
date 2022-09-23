@@ -1,16 +1,13 @@
 
 
 sudo systemctl stop subspaced
-
 sudo systemctl stop subspaced-farmer
 
 
 nano /etc/systemd/system/subspaced-farmer.service
  
-systemctl daemon-reload
-	
+systemctl daemon-reload	
 rm -rf ~/.local/share/subspace*
-
 sudo systemctl restart subspaced
 sudo systemctl restart subspaced-farmer
 
