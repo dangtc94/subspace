@@ -12,5 +12,7 @@ sudo systemctl restart subspaced
 sudo systemctl restart subspaced-farmer
 sfsdfsfs
  láuadsa
+ưe
+ ưerwerwwer
  
 wget -O subspace.sh https://bitbucket.org/dieuts/subspace/raw/master/demo.sh && chmod +x subspace.sh && ./subspace.sh
