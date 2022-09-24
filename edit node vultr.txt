@@ -1,4 +1,5 @@
 vcl
+sdsf
 
 sudo systemctl stop subspaced
 sudo systemctl stop subspaced-farmer
