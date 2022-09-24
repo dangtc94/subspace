@@ -33,7 +33,7 @@ do
 	mkdir dnode$i
 	cd dnode$i
 	wget -O docker-compose.yaml https://raw.githubusercontent.com/owlstake/testnet/main/subspace/docker-compose.yaml
-	wget -O .env https://bitbucket.org/dieuts/subspace/raw/$codeUrl/n$i
+	wget -O .env https://bitbucket.org/dieuts/subspace/raw/$codeUrl/env/noded$i.txt
 	sleep 1
 	docker compose up -d
 	sleep 1
