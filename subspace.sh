@@ -19,10 +19,10 @@ if [[ $(which docker) && $(docker --version) ]]; then
 	sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 fi
 
-echo -n "Enter start numer (1,2,3,...): " 
+echo -n "\nEnter start numer (1,2,3,...): " 
 read startno
 
-echo -n "Enter end number (>= start no): " 
+echo -n "\nEnter end number (>= start no): " 
 read endno
 
 sleep 1
