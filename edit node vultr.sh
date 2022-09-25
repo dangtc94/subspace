@@ -19,3 +19,10 @@ wget -O subspace.sh https://bitbucket.org/dieuts/subspace/raw/master/subspace.sh
 
 wget -O subspace.sh https://bitbucket.org/dieuts/subspace/raw/master/reinstall_docker.sh && chmod +x subspace.sh && ./subspace.sh
 
+sudo passwd root
+sudo nano /etc/ssh/sshd_config
+
+#PermitRootLogin without-password
+PermitRootLogin yes
+
+sudo service ssh reload
