@@ -14,6 +14,5 @@ lsof -i -P -n | grep LISTEN
 
 docker compose logs -f --tail=100
 
-test sync
  
 wget -O subspace.sh https://bitbucket.org/dieuts/subspace/raw/master/subspace.sh && chmod +x subspace.sh && ./subspace.sh
