@@ -26,3 +26,5 @@ sudo nano /etc/ssh/sshd_config
 PermitRootLogin yes
 
 sudo service ssh reload
+
+subkey generate -n subspace_testnet
