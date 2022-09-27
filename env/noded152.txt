@@ -2,7 +2,7 @@
 # Image tag find here: https://ghcr.io/subspace/node
 IMAGETAG=gemini-2a-2022-sep-10
 # Nodename here
-NODENAME=XUOUQIECBXY
+NODENAME=WOJKRTYEMVZ
 # Port #1 = 30333
 PORT1=30515
 # Port #2 = 40333
