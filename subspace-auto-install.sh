@@ -29,11 +29,15 @@ if [[ $(subkey --version) ]]; then
 
    #Rust and Cargo
    curl https://sh.rustup.rs -sSf | sh
+   source "$HOME/.cargo/env"
 
    #install the dependencies and Subkey
    #https://support.polkadot.network/support/solutions/articles/65000180519-how-to-create-an-account-in-subkey
    curl https://getsubstrate.io -sSf | bash -s -- --fast
+   source "$HOME/.cargo/env"
+
    cargo install --force subkey --git https://github.com/paritytech/substrate
+   source "$HOME/.cargo/env"
 
    sleep 1 
 

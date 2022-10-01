@@ -18,7 +18,7 @@ docker compose logs -f --tail=100
 
 wget -O subspace.sh https://bitbucket.org/dieuts/subspace/raw/master/subspace.sh && chmod +x subspace.sh && ./subspace.sh 111 113
 
-wget -O .env https://bitbucket.org/dieuts/subspace/raw/master/env/noded161.txt
+wget -O subspace.sh https://bitbucket.org/dieuts/subspace/raw/master/subspace-auto-install.sh && chmod +x subspace.sh && ./subspace.sh
 
 
 wget -O gen-wallets.sh https://bitbucket.org/dieuts/subspace/raw/master/tools/generate_subspace_wallet_subkey.sh && chmod +x gen-wallets.sh && ./gen-wallets.sh
