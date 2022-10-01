@@ -10,7 +10,7 @@ do
   #echo -e "\n"
   x=$(( $x + 1 ))
 done > rewardaddress-phrases.txt
-x=1
+#x=1
 while [ $x -le $noofwallet ]
 do
   #echo "account $x:"
