@@ -14,7 +14,7 @@ x=1
 while [ $x -le $noofwallet ]
 do
   #echo "account $x:"
-  echo $(sed $((8*$x))'!d' number_of_wallets.txt)
+  echo $(sed $((8*$x))'!d' rewardaddress-phrases.txt)
   #echo -e "\n"
   x=$(( $x + 1 ))
 done > rewardaddress.txt
