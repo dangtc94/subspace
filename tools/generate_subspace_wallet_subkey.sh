@@ -13,7 +13,7 @@ done > number_of_wallets.txt
 while [ $x -le $noofwallet ]
 do
   #echo "account $x:"
-  sed '8*$x!d' number_of_wallets.txt 
+  sed '8*{$x}!d' number_of_wallets.txt 
   #echo -e "\n"
   x=$(( $x + 1 ))
 done > res.txt
