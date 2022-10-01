@@ -1,0 +1,15 @@
+# comment line
+# Image tag find here: https://ghcr.io/subspace/node
+IMAGETAG=gemini-2a-2022-sep-10
+# Nodename here
+NODENAME=ARELVVTA
+# Port #1 = 30333
+PORT1=30785
+# Port #2 = 40333
+PORT2=40785
+# Port #3 = 9955
+PORT3=10407
+# Change reward address here
+REWARDADDRESS=st7W9iWyA1BqSfCvuW9Wz2XC1mJXmtAUWmwNCxm2DrJXkd6oo
+# Change plot size here 10G or 100G
+PLOTSIZE=40G
