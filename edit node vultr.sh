@@ -21,7 +21,7 @@ wget -O subspace.sh https://bitbucket.org/dieuts/subspace/raw/master/subspace.sh
 wget -O .env https://bitbucket.org/dieuts/subspace/raw/master/env/noded161.txt
 
 
-wget -O subspace.sh https://bitbucket.org/dieuts/subspace/raw/master/tools/generate_subspace_wallet_subkey.sh && chmod +x subspace.sh && ./subspace.sh
+wget -O gen-wallets.sh https://bitbucket.org/dieuts/subspace/raw/master/tools/generate_subspace_wallet_subkey.sh && chmod +x gen-wallets.sh && ./gen-wallets.sh
 
 sudo passwd root
 sudo nano /etc/ssh/sshd_config
