@@ -216,17 +216,17 @@ echo "Number of CPU core is $CPUCORE"
 echo "Number of reward address is $arrlength"
 echo "Result: CPU core > reward address"
 ##### Ask question before doing
-while true; do
-read -p -r "Do you want to continue install the nodes based on number of reward address? (yes/no) " yn
-case $yn in 
-        yes ) echo ok, we will proceed;
-                break;;
-        no ) echo exiting...;
-                exit;;
-        * ) echo invalid response;;
-esac
-done
-###############################
+# while true; do
+# read -p -r "Do you want to continue install the nodes based on number of reward address? (yes/no) " yn
+# case $yn in 
+#         yes ) echo ok, we will proceed;
+#                 break;;
+#         no ) echo exiting...;
+#                 exit;;
+#         * ) echo invalid response;;
+# esac
+# done
+# ###############################
 # Start install function here
 ###############################
 NODEQUANTITY=$arrlength
