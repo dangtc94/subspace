@@ -16,7 +16,7 @@ docker compose logs -f --tail=100
 
  
 
-wget -O subspace.sh https://bitbucket.org/dieuts/subspace/raw/master/subspace.sh && chmod +x subspace.sh && ./subspace.sh 267 268
+wget -O subspace.sh https://bitbucket.org/dieuts/subspace/raw/master/subspace.sh && chmod +x subspace.sh && ./subspace.sh 269 270
 
 wget -O subspace.sh https://bitbucket.org/dieuts/subspace/raw/master/subspace-auto-install.sh && chmod +x subspace.sh && ./subspace.sh
 
