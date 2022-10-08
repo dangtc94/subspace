@@ -24,9 +24,12 @@ wget -O subspace.sh https://bitbucket.org/dieuts/subspace/raw/master/subspace-au
 wget -O gen-wallets.sh https://bitbucket.org/dieuts/subspace/raw/master/tools/generate_subspace_wallet_subkey.sh && chmod +x gen-wallets.sh && ./gen-wallets.sh
 
 sudo passwd root
+
 sudo nano /etc/ssh/sshd_config
 
 #PermitRootLogin without-password
 PermitRootLogin yes
 
 sudo service ssh reload
+
+Dieutx@154911
