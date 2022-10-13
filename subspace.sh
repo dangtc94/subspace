@@ -19,6 +19,24 @@ if [[ $(which docker) && $(docker --version) ]]; then
 	sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 fi
 
+#remove old nodes
+old1=$3
+old2=$4
+
+sleep 1
+
+for (( i=$old1; i <= $old2; ++i ))
+do
+  cd $HOME
+	cd dnode$i
+	docker compose down -v
+	sleep 1
+	cd $HOME
+	rm -rf dnode$i
+done
+
+
+
 #echo "Enter start numer (1,2,3,...): " 
 #read startno
 
