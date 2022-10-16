@@ -12,4 +12,4 @@ PORT3=10312
 # Change reward address here
 REWARDADDRESS=stBhS6wejnPTueorKN3MhXDKq82XKtqRzw6QYw1pVsHg5nQEe
 # Change plot size here 10G or 100G
-PLOTSIZE=40G
+PLOTSIZE=70G
